@@ -15,7 +15,7 @@ public class charCount {
 			if(!(added.containsKey(c)))
 				added.put(c, 1);
 			else
-				added.put(input.charAt(i), added.get(input.charAt(i)) + 1 );
+				added.put(c, added.get(c) + 1 );
 			i++;
 		}
 		System.out.println(added);	
